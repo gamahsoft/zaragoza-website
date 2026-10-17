@@ -6,3 +6,6 @@ dist/
 !.env.example
 .vercel/
 *.log
+*.tsbuildinfo
+zaragoza-review-*.zip
+zaragoza-review-*.zip.sha256
