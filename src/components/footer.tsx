@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div className="footer-brand">
-          <Wordmark light />
+          <Wordmark placement="footer" />
           <p>A new restaurant and bar concept for Houston, Texas.</p>
         </div>
         <div>

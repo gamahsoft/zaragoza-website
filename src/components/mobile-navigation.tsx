@@ -20,7 +20,7 @@ export function MobileNavigation({ items, bookingUrl }: { items: NavigationItem[
         <Dialog.Content className="mobile-nav" aria-describedby={undefined}>
           <Dialog.Title className="sr-only">Site navigation</Dialog.Title>
           <div className="mobile-nav-top">
-            <Wordmark light />
+            <Wordmark placement="navigation" />
             <Dialog.Close className="mobile-nav-close" aria-label="Close navigation">
               <CloseIcon className="icon" />
             </Dialog.Close>

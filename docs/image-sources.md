@@ -11,6 +11,10 @@ The images below were generated specifically for this prototype with OpenAI's bu
 
 All prompts specified: original imagery, no logos, no readable text, no watermarks, and no copied restaurant design. Full image metadata and visitor-facing alt text live in `src/content/site.ts`.
 
+## Provisional logo concept
+
+The supplied `public/images/zaragoza-logo-concept.png` remains unchanged as the source logo concept. It is provisional and awaits explicit client approval before launch. The website uses `public/images/zaragoza-logo-concept-web.png`, a proportional 580×400 derivative made from the lossless 1160×800 crop in `public/images/zaragoza-logo-concept-trimmed.png`. Only unnecessary outer ivory whitespace was removed; the complete emblem, lettering, colors, and ivory background were preserved. The favicon remains unchanged for this checkpoint.
+
 ## Replacement process
 
 1. Confirm usage rights and record the source, creator, license, and any attribution requirement.
