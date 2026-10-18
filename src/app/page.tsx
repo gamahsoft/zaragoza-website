@@ -49,8 +49,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="private-dining" className="private-section">
+      <section className="private-section">
         <div className="private-rule" aria-hidden="true"><span>✦</span></div>
+        <span id="private-dining" className="private-anchor" aria-hidden="true" />
         <div className="shell private-content">
           <p className="eyebrow eyebrow-light">{content.privateDining.eyebrow}</p>
           <h2>{content.privateDining.title}</h2>
@@ -59,7 +60,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="visit" className="visit-section">
+      <section className="visit-section">
+        <span id="visit" className="visit-anchor" aria-hidden="true" />
         <div className="shell visit-grid">
           <div><p className="eyebrow text-amber">Visit us</p><h2>Your next table<br />is in Houston.</h2></div>
           <div className="visit-details">
