@@ -4,10 +4,10 @@ The images below were generated specifically for this prototype with OpenAI's bu
 
 | File | Prototype use | Generation summary |
 |---|---|---|
-| `public/images/zaragoza-shared-table-hero.webp` | Homepage hero | Candlelit Spanish-inspired shared table with paella, warm amber bar light, dark negative space for page copy |
+| `public/images/zaragoza-shared-table-hero.webp` | Homepage carousel, dining-experience slide | Candlelit Spanish-inspired shared table with paella, warm amber bar light, dark negative space for page copy |
 | `public/images/zaragoza-dining-room.webp` | Home story and About hero | Contemporary navy-and-brass dining room with a long set table and indistinct guests |
-| `public/images/zaragoza-small-plates.webp` | Food feature and Menus hero | Overhead Spanish-inspired small plates on warm stone |
-| `public/images/zaragoza-cocktails.webp` | Bar feature | Garnet and golden cocktails on a dark stone bar |
+| `public/images/zaragoza-small-plates.webp` | Homepage carousel menu slide, food feature, and Menus hero | Overhead Spanish-inspired small plates on warm stone |
+| `public/images/zaragoza-cocktails.webp` | Homepage carousel gathering slide and bar feature | Garnet and golden cocktails on a dark stone bar |
 
 All prompts specified: original imagery, no logos, no readable text, no watermarks, and no copied restaurant design. Full image metadata and visitor-facing alt text live in `src/content/site.ts`.
 

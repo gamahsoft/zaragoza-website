@@ -1,33 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowIcon } from "@/components/icons";
+import { HeroCarousel } from "@/components/hero-carousel";
 import { ImageCredit } from "@/components/image-credit";
-import { ReservationAction } from "@/components/reservation-action";
 import { getValidatedBookingUrl } from "@/config/integrations";
-import { getHomeContent, getSiteContent } from "@/lib/content";
+import { getHeroSlides, getHomeContent, getSiteContent } from "@/lib/content";
 
 export default function HomePage() {
   const content = getHomeContent();
+  const slides = getHeroSlides();
   const { images, restaurant } = getSiteContent();
   const bookingUrl = getValidatedBookingUrl();
 
   return (
     <>
-      <section className="hero">
-        <Image src={images.hero.src} alt={images.hero.alt} fill priority sizes="100vw" className="hero-image" />
-        <div className="hero-shade" />
-        <div className="shell hero-content">
-          <p className="eyebrow eyebrow-light">{content.hero.eyebrow}</p>
-          <h1>{content.hero.title}</h1>
-          <p className="hero-intro">{content.hero.introduction}</p>
-          <div className="hero-actions">
-            <ReservationAction bookingUrl={bookingUrl} className="button button-outline" />
-            <Link href="/menus" className="button button-amber">Explore Menus <ArrowIcon className="button-icon" /></Link>
-          </div>
-        </div>
-        <ImageCredit />
-        <a className="hero-scroll" href="#story"><span>Discover</span><i /></a>
-      </section>
+      <HeroCarousel slides={slides} bookingUrl={bookingUrl} />
 
       <section id="story" className="section story-section">
         <div className="shell story-grid">

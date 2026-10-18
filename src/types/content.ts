@@ -11,6 +11,19 @@ export type ImageAsset = {
   source: "OpenAI generated placeholder";
 };
 
+export type HeroSlideAction =
+  | { type: "reservation"; label: string }
+  | { type: "link"; label: string; href: string };
+
+export type HeroSlide = {
+  id: string;
+  eyebrow: string;
+  heading: string;
+  description: string;
+  image: ImageAsset;
+  actions: readonly HeroSlideAction[];
+};
+
 export type RestaurantIdentity = {
   name: string;
   descriptor: string;

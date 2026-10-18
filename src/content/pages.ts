@@ -1,10 +1,4 @@
 export const homeContent = {
-  hero: {
-    eyebrow: "Houston, Texas",
-    title: "Gather boldly. Stay awhile.",
-    introduction:
-      "A spirited restaurant and bar concept shaped around Spanish-inspired plates, expressive drinks, and the easy rhythm of a shared table.",
-  },
   story: {
     eyebrow: "The Zaragoza experience",
     title: "Made for the whole table",
